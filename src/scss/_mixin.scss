@@ -1,0 +1,28 @@
+@import'./variables';
+@mixin flexCenter($dir){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $dir;
+}
+// *************Example 2 *****************
+
+@mixin theme($light-theme){
+    @if $light-theme{
+        background: lighten($blackColor,50%);
+
+        color: darken($successColor,50%);
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
+// 3rd Example using media query
+
+@mixin mobile{
+    @media (max-width:$mobile) {
+     @content;   
+    }
+}

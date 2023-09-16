@@ -1,0 +1,21 @@
+$successColor:#baebc7;
+$blackColor:#000000;
+$whiteColor:#ffffff;
+$yellowColor:#c9c417;
+$colorRed:#ae9597;
+
+// ***********SCSS Map****
+$font-weight:(
+    "regular":100,
+    "medium":600,
+    "bold":900,
+);
+
+$font-size:( "regular":25px,
+"medium":30px,
+"bold":40px);
+
+// ***********************
+
+//3rd example using media query
+$mobile:800px;
